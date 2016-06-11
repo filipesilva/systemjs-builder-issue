@@ -1,0 +1,23 @@
+{
+  "name": "systemjs-builder-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "prebuild-one-bundle": "tsc",
+    "build-one-bundle": "node build-one-bundle.js",
+    "prebuild-two-bundles": "tsc",
+    "build-two-bundles": "node build-two-bundles.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "moment": "^2.13.0",
+    "systemjs": "0.19.30",
+    "systemjs-builder": "0.15.20",
+    "typescript": "^1.8.10"
+  }
+}

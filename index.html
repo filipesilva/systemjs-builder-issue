@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="node_modules/systemjs/dist/system.src.js"></script>
+  <script>
+    System.import('system.config.js')
+        .then(() => System.import('main'))
+        .catch(function(err){ console.error(err); });
+  </script>
+</head>
+
+<body>
+  <h1 id="title">Loading...</h1>
+</body>
+
+</html>
